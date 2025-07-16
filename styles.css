@@ -1107,8 +1107,8 @@ header, nav.container {
 /* --- ADVANCED HERO SECTION --- */
 .advanced-hero {
   position: relative;
-  min-height: 80vh;
-  height: 102vh;
+  min-height: 86vh;
+  height: 110vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1131,22 +1131,22 @@ header, nav.container {
 
 @media (max-width: 900px) {
   .advanced-hero {
-    min-height: 66vh;
-    height: 78vw;
+    min-height: 72vh;
+    height: 86vw;
     background-position: center top;
   }
 }
 @media (max-width: 700px) {
   .advanced-hero {
-    min-height: 52vh;
-    height: 68vw;
+    min-height: 58vh;
+    height: 76vw;
     background-position: center top;
   }
 }
 @media (max-width: 600px) {
   .advanced-hero {
-    min-height: 400px;
-    height: 76vw;
+    min-height: 440px;
+    height: 84vw;
     background-position: center top;
     background-size: cover;
   }
