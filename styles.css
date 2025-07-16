@@ -1107,15 +1107,59 @@ header, nav.container {
 /* --- ADVANCED HERO SECTION --- */
 .advanced-hero {
   position: relative;
-  min-height: 800px;
-  height: 80vh;
+  min-height: 80vh;
+  height: 102vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('mainphoto.png') center top/100% 100% no-repeat;
+  background: url('mainphoto.png') center center/cover no-repeat;
   overflow: hidden;
   border-radius: 0;
   box-shadow: 0 8px 32px 0 rgba(17,17,17,0.12);
+}
+.advanced-hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: linear-gradient(120deg, rgba(17,17,17,0.32) 60%, rgba(255,127,0,0.18) 100%);
+  z-index: 1;
+}
+.advanced-hero .hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 900px) {
+  .advanced-hero {
+    min-height: 66vh;
+    height: 78vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 700px) {
+  .advanced-hero {
+    min-height: 52vh;
+    height: 68vw;
+    background-position: center top;
+  }
+}
+@media (max-width: 600px) {
+  .advanced-hero {
+    min-height: 400px;
+    height: 76vw;
+    background-position: center top;
+    background-size: cover;
+  }
+  .advanced-hero .hero-title {
+    font-size: 1.5rem;
+  }
+  .advanced-hero .hero-motto {
+    font-size: 1rem;
+  }
+  .advanced-cta {
+    font-size: 1rem;
+    padding: 12px 24px;
+  }
 }
 .advanced-hero .hero-overlay {
   display: none;
