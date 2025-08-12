@@ -1,4 +1,4 @@
-/* --- ADVANCED THEME FOUNDATION --- */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500;700&display=swap');
 :root {
   --primary-orange: #ff7f00;
@@ -35,7 +35,7 @@ section {
   padding: 0 24px;
 }
 
-/* --- THEME COLORS --- */
+
 :root {
   --primary-orange: #ff7f00;
   --primary-black: #111111;
@@ -56,7 +56,7 @@ header, nav.container {
 
 .nav-links a {
   display: inline-block;
-  /* background: var(--primary-orange) !important; */
+  
   color: var(--primary-black) !important;
   border-radius: 6px;
   padding: 8px 22px;
@@ -153,22 +153,14 @@ footer {
   color: var(--primary-black);
 }
 
-/* Optional: Add a subtle orange shadow to logo for pop */
-/* .logo img, .hero-content img {
-  box-shadow: 0 4px 24px 0 rgba(255,127,0,0.10);
-  background: var(--primary-white);
-  border-radius: 12px;
-} */
 
-/* Ensure forms and cards use white backgrounds */
 form, .card, .product, .footer-section {
   background: var(--primary-white);
   color: var(--primary-black);
   border-radius: 8px;
 }
 
-/* Remove old color overrides if present */
-/* --- Contact Form Modern Styles --- */
+
 .contact-form-section {
     background: var(--primary-white);
     border-radius: 16px;
@@ -224,7 +216,7 @@ form, .card, .product, .footer-section {
     color: var(--primary-white);
     box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
-/* --- Services Page Advanced Layout --- */
+
 .services-advanced-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -272,7 +264,7 @@ form, .card, .product, .footer-section {
     .products-hero-content { padding: 32px 0 18px 0; }
     .products-hero-title { font-size: 1.3rem; }
 }
-/* --- Products Page Modern Advanced Styles --- */
+
 .products-hero {
     position: relative;
     width: 100vw;
@@ -576,7 +568,7 @@ form, .card, .product, .footer-section {
     opacity: 1;
     padding: 12px 16px;
 }
-/* Modern Read More button style */
+
 .read-more-btn {
     display: inline-block;
     margin-top: 10px;
@@ -598,7 +590,7 @@ form, .card, .product, .footer-section {
     outline: none;
 }
 
-/* Product description animation */
+
 .product-desc {
     margin-top: 10px;
     background: var(--primary-white);
@@ -622,7 +614,7 @@ form, .card, .product, .footer-section {
 #google_translate_element .goog-te-gadget-simple > span:first-child:not(.goog-te-menu-value) {
     display: none !important;
 }
-/* Hide Google Translate top banner and iframe */
+
 .goog-te-banner-frame.skiptranslate, #goog-gt-tt, .goog-te-balloon-frame, .goog-te-menu-frame, .goog-te-banner-frame, .goog-te-banner-frame iframe {
     display: none !important;
     visibility: hidden !important;
@@ -637,7 +629,7 @@ form, .card, .product, .footer-section {
 }
 html { margin-top: 0 !important; }
 body { top: 0px !important; }
-/* Hide Google Translate top banner */
+
 .goog-te-banner-frame.skiptranslate {
     display: none !important;
 }
@@ -650,9 +642,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f9; /* Light gray background */
-    color: #333; /* Darker text for better readability */
-}
+    background-color: #f4f4f9; 
+    color: #333; 
 
 html, body {
     overflow-x: hidden !important;
@@ -667,7 +658,7 @@ html, body {
 }
 
 footer {
-    background: #001f3f; /* Navy blue */
+    background: #001f3f;
     color: #fff;
     padding: 15px 0;
     position: sticky;
@@ -676,11 +667,7 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* .logo {
-    font-size: 28px;
-    font-weight: bold;
-    color: #01FF70; 
-} */
+
 
 nav.container {
   display: flex;
@@ -708,26 +695,7 @@ nav.container {
   max-height: 120px;
 } 
 
-/* .nav-links {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  gap: 18px;
-} */
 
-/* .nav-links li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 15px;
-    transition: color 0.3s, background 0.3s;
-    border-radius: 5px;
-} */
-
-/* .nav-links li a:hover {
-    color: #001f3f; /* Navy blue 
-    background: #01FF70;  Lime green 
-} */
 
 .burger {
     display: none;
@@ -739,7 +707,7 @@ nav.container {
     cursor: pointer;
     position: absolute;
     right: 2.2rem;
-    top: 8px !important; /* Move burger icon higher and override all */
+    top: 8px !important; 
     z-index: 1200;
     background: none;
     border: none;
@@ -755,7 +723,7 @@ nav.container {
     transition: all 0.3s;
 }
 
-/* Restore full viewport height for hero image so photo is fully visible */
+
 .hero {
     background: url('hero-image.jpg') no-repeat center center/cover;
     height: 100vh;
@@ -788,12 +756,12 @@ nav.container {
     font-size: 24px;
     margin: 20px 0;
     font-style: italic;
-    color: #01FF70; /* Lime green */
+    color: #01FF70; 
 }
 
 .cta-button {
-    background: #01FF70; /* Lime green */
-    color: #001f3f; /* Navy blue */
+    background: #01FF70; 
+    color: #001f3f; 
     padding: 12px 25px;
     text-decoration: none;
     border-radius: 25px;
@@ -801,22 +769,20 @@ nav.container {
 }
 
 .cta-button:hover {
-    background: #28a745; /* Darker lime green */
+    background: #28a745; 
     transform: translateY(-3px);
 }
 
-/* Add extra top margin to push content below the header/nav */
-/* Make the navy blue header/nav thicker on all pages except home */
-/* Remove margin-top so content starts just below the header/nav */
+
 .about, .products, .services, .contact {
     padding: 60px 0;
-    background-color: #f8f9fa; /* Light gray */
+    background-color: #f8f9fa; /
 }
 
 .section-title {
     font-size: 32px;
     margin-bottom: 30px;
-    color: #001f3f; /* Navy blue */
+    color: #001f3f; 
     text-align: center;
 }
 
@@ -852,7 +818,7 @@ nav.container {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-bottom: 3px solid #01FF70; /* Lime green */
+    border-bottom: 3px solid #01FF70; 
 }
 
 
@@ -941,16 +907,16 @@ nav.container {
 .footer-bottom {
     text-align: center;
     padding: 15px 0;
-    background: #001f3f; /* Navy blue */
+    background: #001f3f; 
     color: #fff;
     
     font-size: 14px;
-    width: 100%; /* Full width */
+    width: 100%; 
     position: relative;
     box-sizing: border-box;
 }
 
-/* --- Footer Refinement for Classic Look --- */
+/* footer */
 .footer-content {
     background: #001f3f !important;
     border-radius: 0 !important;
@@ -979,7 +945,7 @@ nav.container {
     letter-spacing: 0.01em;
 }
 
-/* Google Translate widget styling */
+/* Google Translate */
 #google_translate_element {
     position: fixed;
     bottom: 20px;
@@ -988,12 +954,12 @@ nav.container {
     min-width: 120px;
     font-size: 15px;
 }
-/* Hide the Google Translate selector icon/image, show only the dropdown text */
+
 #google_translate_element .goog-te-gadget-icon {
     display: none !important;
 }
 
-/* Style the Google Translate dropdown as a modern button with a globe icon */
+
 #google_translate_element .goog-te-gadget-simple {
     display: inline-flex;
     align-items: center;
@@ -1029,24 +995,14 @@ nav.container {
     display: inline-block;
     vertical-align: middle;
 }
-/* Hide the 'Translate' button/label next to the dropdown */
+
 #google_translate_element .goog-te-gadget-simple > span:first-child {
     display: none !important;
 }
-/* Hide the extra button next to the Google Translate dropdown */
+
 body { top: 0px !important; }
 
-/* header, nav.container {
-    background: #001f3f !important;
-    color: #fff !important;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: 0 2px 12px rgba(0,31,63,0.10);
-    padding-top: 0;
-    padding-bottom: 0;
-    overflow: visible;
-} */
+
 .logo img {
     height: 120px !important;
     width: auto !important;
@@ -1054,28 +1010,13 @@ body { top: 0px !important; }
     margin: 0 auto;
     max-height: 120px;
 }
-/* .nav-links li a {
-    color: #fff !important;
-}
-.nav-links li a:hover {
-    color: #001f3f !important;
-    
-} */
 
-/* --- ENFORCE HEADER THEME (WHITE HEADER) --- */
 header, nav.container {
   background: var(--primary-white) !important;
   color: var(--primary-black) !important;
   border-bottom: 4px solid var(--primary-black) !important;
 }
-/* .logo {
-  background: var(--primary-white) !important;
-  border-radius: 10px !important;
-}
-.logo img {
-  background: var(--primary-white) !important;
-  border-radius: 10px !important;
-} */
+
 .nav-links a {
   color: var(--primary-black) !important;
   font-weight: 600;
@@ -1085,7 +1026,7 @@ header, nav.container {
   color: var(--primary-orange) !important;
 }
 
-/* --- BUTTONS ORANGE WITH BLACK TEXT --- */
+
 .cta-button, button, input[type="submit"] {
   background: var(--primary-orange) !important;
   color: var(--primary-black) !important;
@@ -1101,10 +1042,7 @@ header, nav.container {
   color: var(--primary-orange) !important;
 }
 
-/* --- HEADER SEARCH BAR --- */
-/*  */
 
-/* --- ADVANCED HERO SECTION --- */
 .advanced-hero {
   position: relative;
   min-height: 86vh;
@@ -1222,26 +1160,7 @@ header, nav.container {
   outline: none;
 }
 
-/* --- FIX NAV BUTTON COLORS (NO NAVY/LIME) --- */
-/* .nav-links a {
-  display: inline-block;
-  background: var(--primary-orange) !important;
-  color: var(--primary-black) !important;
-  border-radius: 6px;
-  padding: 8px 22px;
-  font-weight: 600;
-  text-decoration: none;
-  margin: 0 2px;
-  transition: background 0.2s, color 0.2s;
-}
-.nav-links a:hover, .nav-links a:focus {
-  background: var(--primary-white) !important;
-  color: var(--primary-orange) !important;
-  border: 2px solid var(--primary-orange);
-  text-decoration: none;
-} */
 
-/* --- MODERN WHITE FOOTER --- */
 footer {
   background: var(--primary-white) !important;
   color: var(--primary-black) !important;
@@ -1299,18 +1218,18 @@ footer {
   }
 }
 
-/* --- ENSURE WHITE FOOTER SECTIONS --- */
+
 .footer-content.container, .footer-section {
   background: var(--primary-white) !important;
 }
 
-/* --- REMOVE ALL FOOTER SECTION BORDERS/DIVIDERS --- */
+
 .footer-section, .footer-section * {
   border: none !important;
   box-shadow: none !important;
 }
 
-/* --- ANIMATIONS --- */
+
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: translateY(0); }
@@ -1346,7 +1265,7 @@ footer {
   animation: fadeIn 1.2s both;
 }
 
-/* --- RESPONSIVE NAVIGATION --- */
+
 @media (max-width: 900px) {
   .nav-links {
     gap: 12px !important;
@@ -1390,7 +1309,7 @@ footer {
     display: block !important;
     position: absolute;
     right: 24px;
-    top: 8px !important; /* Move burger icon higher and override all */
+    top: 8px !important; 
     z-index: 1200;
     cursor: pointer;
   }
@@ -1412,7 +1331,7 @@ footer {
     max-width: 120px !important;
   }
 }
-/* --- REMOVE ULTRA-COMPACT NAV --- */
+
 @media (max-width: 600px) {
   .nav-links {
     gap: initial !important;
@@ -1436,7 +1355,7 @@ footer {
   }
 }
 
-/* --- BURGER MENU FOR MOBILE --- */
+
 @media (max-width: 900px) {
   .nav-links {
     display: none !important;
@@ -1479,7 +1398,7 @@ footer {
     display: block !important;
     position: absolute;
     right: 24px;
-    top: 8px !important; /* Move burger icon higher and override all */
+    top: 8px !important; 
     z-index: 1200;
     cursor: pointer;
   }
@@ -1502,7 +1421,7 @@ footer {
   }
 }
 
-/* --- NAVIGATION DROPDOWN MENU --- */
+
 @media (max-width: 900px) {
   .nav-links.open a:hover, .nav-links.open a:focus {
     color: var(--main-orange);

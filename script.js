@@ -1,6 +1,6 @@
 
 
-// Google Translate integration from scratch
+// Google Translate integrimi
 
 function googleTranslateElementInit() {
     new google.translate.TranslateElement({
@@ -10,7 +10,7 @@ function googleTranslateElementInit() {
         autoDisplay: false
     }, 'google_translate_element');
 
-    // Try to re-apply the last selected language
+    
     setTimeout(function() {
         var lang = localStorage.getItem('selected_lang');
         if (lang && lang !== 'en') {
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (typeof navSlide === 'function') navSlide();
     if (typeof smoothScroll === 'function') smoothScroll();
 
-    // Listen for language changes and store in localStorage
+   
     document.body.addEventListener('change', function(e) {
         if (e.target.className === 'goog-te-combo') {
             localStorage.setItem('selected_lang', e.target.value);
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-// Responsive nav
+// Nav responsiv
 function navSlide() {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav-links');
